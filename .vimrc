@@ -1,6 +1,4 @@
-execute pathogen#infect()
-
-" Make Vim more useful
+:" Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
 set clipboard=unnamed
@@ -248,5 +246,7 @@ nnoremap B ^
 nnoremap E $
 " Align equals
 nnoremap <leader>= :EasyAlign *=<CR>
+
+colorscheme nightsky
 
 set wildignore+=**/node_modules/*
